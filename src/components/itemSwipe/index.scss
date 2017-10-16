@@ -1,0 +1,16 @@
+.cking-item-swipe{
+  position: relative;
+
+  .cis-operation{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: 0;
+  }
+
+  .cis-content{
+    position: relative;
+    z-index:1;
+  }
+}

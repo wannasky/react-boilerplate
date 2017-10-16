@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body,p,ul,li,h1,h2,h3,button,input{
+  margin:0;
+  padding:0;
+  font-weight:normal;
+  list-style: none;
+  outline:none;
+}
+
+a,button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+body{
+  position: relative;
+  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}

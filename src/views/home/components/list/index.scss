@@ -1,0 +1,36 @@
+.volunteer-list{
+
+  .vl-box{
+    margin-bottom:20px;
+    font-size:1.5rem;
+    padding:10px;
+
+    .vl-title{
+      display: flex;
+      padding:10px 0;
+      border-bottom:1px solid #ccc;
+
+      li{
+        width: 200px;
+        flex-grow: 1;
+        text-align: center;
+      }
+    }
+
+    .vl-content{
+
+      li{
+        display: flex;
+        padding:10px 0;
+        border-bottom:1px solid #ccc;
+
+        span{
+          width: 200px;
+          display: block;
+          flex-grow: 1;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

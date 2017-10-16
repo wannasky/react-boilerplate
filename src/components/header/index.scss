@@ -1,0 +1,42 @@
+.header{
+  height: 50px;
+  background-color: #06c1ae;
+  position: relative;
+
+  .navigation{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    top:0;
+
+    &::before,&::after{
+      content:'';
+      top: 25px;
+      left:8px;
+      position: absolute;
+      display: block;
+      width:20px;
+      height:2px;
+      transform-origin: left center;
+      background-color:#fff;
+    }
+
+    &::before{
+      transform:rotateZ(30deg);
+    }
+
+    &::after{
+      transform:rotateZ(-30deg);
+    }
+  }
+
+  h1{
+    color:#fff;
+    left:50px;
+    right:50px;
+    position: absolute;
+    line-height: 50px;
+    text-align: center;
+  }
+}
