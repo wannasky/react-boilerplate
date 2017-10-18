@@ -3,8 +3,7 @@ import {SET_HEADER, SET_HEADER_TITLE} from 'actions/header';
 //默认
 const initState = {
     title: '',
-    nav: false,
-    date: false
+    nav: false
 }
 
 export default function (state = initState, action) {

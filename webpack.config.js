@@ -84,12 +84,11 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                include: /(src|node_modules\/cking-.*)/,
+                exclude: /(node_modules)/,
                 use: "babel-loader"
             },
             {
                 test: /\.(scss|css)$/,
-                include: /(src|node_modules\/cking-.*)/,
                 use: ExtractTextWebpackPlugin.extract({
                         fallback: 'style-loader',
                         use: ['css-loader', 'sass-loader']

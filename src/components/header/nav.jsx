@@ -9,11 +9,14 @@ export default class Nav extends Component{
     }
 
     goBack() {
-        console.log(this.props)
         this.props.history.goBack();
     }
 
     render(){
-        return <div onClick={this.goBack} className="navigation"></div>
+        return (
+            <div onClick={this.goBack} className="navigation">
+
+            </div>
+        )
     }
 }
